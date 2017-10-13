@@ -1,0 +1,19 @@
+<div align="center">
+    <h3>Post List</h3>
+
+    <button class="btn btn-primery" [disabled]="disableNewPost">Create</button>
+    <div>
+        <table  class="table">
+            <tr>
+                <th>Author Twitter</th>
+                <th>Post name</th>
+                <th>Post date</th>
+            </tr>
+            <tr>
+                <td>{{author}}</td>
+                <td>{{getTitle()}}</td>
+                <td> {{'19/08/1988'}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
